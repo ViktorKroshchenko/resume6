@@ -1,0 +1,133 @@
+body {
+    background: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.p2 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+th {
+    padding: 15px;
+}
+td {
+    padding: 15px;
+}
+.button1 {
+    padding-right: 7px;
+}
+::-webkit-input-placeholder {
+    text-align:center;
+    }
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.table1 {
+    background: rgb(243, 158, 0);
+   border-radius: 20px;
+   padding: 5px;
+   padding-left: 180px;
+   margin-bottom: 35px;
+   opacity: 0.9;
+   padding-bottom: 20px;
+}
+.table3 {
+    background: rgb(243, 158, 0);
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    opacity: 0.9;
+}
+.table4 {
+    background: rgb(0, 0, 0);
+    margin-left: 170px;
+    color: rgb(238, 238, 238);
+    margin-bottom: 5px;
+}
+.table5 {
+    background: black;
+    color: white;
+}
+.form-group label{
+  display: block;
+  font-size: 18px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    background: rgb(238, 238, 238);
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all .2s;
+}
+.btn {
+    color: black;
+    width: 100px;
+    height: 30px;
+    background: rgb(238, 238, 238);
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn:hover {
+    opacity: .8;
+    width: 115px;
+    height: 30px;
+}
+.soc a:hover img {
+    transform: scale(1.1);
+  }
+.soc1:hover {
+    opacity: .8;
+    transform: 20%;
+}
+.soc2:hover {
+    opacity: .8;
+}
+.soc3:hover {
+    opacity: .8;
+}
+.zagolovok1 {
+    color: rgb(255, 255, 255);
+}
+h1 {
+    margin-bottom: 5px;
+}
+.table2 {
+    color: rgb(255, 255, 255);
+    padding-left: 235px;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+.soc a img {
+    transition: 1s;
+}
+.soc {
+    margin-left: 125px;
+}
+.soc1 {
+    margin-left: 0;
+}
+.soc2 {
+    margin-left: 55px;
+}
+.soc3 {
+    margin-left: 55px;
+}
+.ipt1 {
+    padding-bottom: 15px;
+}
+.ipt2 {
+    padding-bottom: 15px;
+}
+.ipt3 {
+    padding-bottom: 20px;
+}

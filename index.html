@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my story</title>
+    <style>
+        .scale {
+         transition: 1s;
+        }
+        .scale:hover {
+         transform: scale(1.2);
+        }
+       </style>
+     
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+     <div class="container">
+        <style>
+        </style>
+            <div class="zagolovok1">
+    <h1>Viktor resume</h1>
+    <p class="paragraf1"><b>Меня зовут Виктор, мне 14 лет</b> . Я изучаю программирование, а точнее <b> WEB-разработку</b>. На данный момент изучаю  <b>HTML</b> и <b>CSS</b>, также в планах на ближайшее время изучить <B>JavaScript</B>, сейчас изучаю <b>frontend</b> но в будущем хочу стать <b>full-stack разработчиком</b> . </p>
+    </div>
+    <div class="table1">
+    <h2><b> мои хобби</b></h2>
+    <ul>
+        <li>рыбалка</li>
+        <li>программирование</li>
+        <li>путешествие</li>
+    </ul>
+     </div>
+    <div class="table3">
+    <table>
+        <thead>
+              <th> название</th>
+              <th>должность</th>
+              <th>опыт работы</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td> нету</td>
+                <td>нету</td>
+                <td>20??-20??</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <div class="table2">
+    <h2"><b>мои соц-сети</b></h2>
+    </div>
+    <br>
+    <div class="soc">
+    <a class="soc1" target="_blank" href="https://t.me/Viktor_Kroshchenko" ><img src="telegram 4.jpg" alt="мой телеграмм" width="100"></a> 
+    <a class="soc2" target="_blank" href="https://www.facebook.com/profile.php?id=100072313463707"><img src="facebook3.jpg" alt="мой фейсбук" width="100"></a>
+    <a class="soc3" target="_blank" href="https://www.instagram.com/vkroschenko/"><img src="Instagram3.png" alt="мой инстаграм" width="100"></a>
+    </div>
+         <form class="form">
+            <div class="table4">
+            <h2>связаться со мной</h2>
+            </div>
+              <div class="table5 t1 form-group">
+                  <label  class="button1" for="name">ваше имя :</label>
+                  <input class="ipt1" required type="text" id="name" placeholder="введите имя...">
+              </div> 
+              <div  class="table5 t1 form-group">
+                  <label for="email">ваша электронная почта :</label>
+                  <input class="ipt2" required type="email" id="email" placeholder="введите email...">
+              </div>
+            <div class="table5 form-group">
+                <label for="message">ваше сообщение:</label>
+                <textarea class="ipt3" required id="message" cols="25" rows="5" placeholder="введите сообщение..."></textarea>
+            </div>
+            <div class="table5">
+                <div class="btn1">
+                    <button onclick="event.preventDefault();
+                    document.querySelector('form').reset();" type="submit" class="btn">отправить!</button>
+                </div>
+            </div>
+         </form>
+        </div>
+     </div>
+</body>
+</html>
